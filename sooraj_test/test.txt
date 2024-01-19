@@ -1,0 +1,39 @@
+Microsoft Windows [Version 10.0.22621.3007]
+(c) Microsoft Corporation. All rights reserved.
+
+(venv) D:\django_project>pip install django
+Collecting django
+  Obtaining dependency information for django from https://files.pythonhosted.org/packages/97/67/6804ff6fc4fa6df188924412601cc418ddc2d0a500963b0801a97b7ec08a/Django-5.0.1-py3-none-any.whl.metadata
+  Using cached Django-5.0.1-py3-none-any.whl.metadata (4.2 kB)
+Collecting asgiref<4,>=3.7.0 (from django)
+  Obtaining dependency information for asgiref<4,>=3.7.0 from https://files.pythonhosted.org/packages/9b/80/b9051a4a07ad231558fcd8ffc89232711b4e618c15cb7a392a17384bbeef/asgiref-3.7.2-py3-none-any.whl.metadata
+  Using cached asgiref-3.7.2-py3-none-any.whl.metadata (9.2 kB)
+Collecting sqlparse>=0.3.1 (from django)
+  Using cached sqlparse-0.4.4-py3-none-any.whl (41 kB)
+Collecting tzdata (from django)
+  Obtaining dependency information for tzdata from https://files.pythonhosted.org/packages/a3/fb/52b62131e21b24ee297e4e95ed41eba29647dad0e0051a92bb66b43c70ff/tzdata-2023.4-py2.py3-none-any.whl.metadata
+  Using cached tzdata-2023.4-py2.py3-none-any.whl.metadata (1.4 kB)
+Using cached Django-5.0.1-py3-none-any.whl (8.1 MB)
+Using cached asgiref-3.7.2-py3-none-any.whl (24 kB)
+Using cached tzdata-2023.4-py2.py3-none-any.whl (346 kB)
+Installing collected packages: tzdata, sqlparse, asgiref, django
+Successfully installed asgiref-3.7.2 django-5.0.1 sqlparse-0.4.4 tzdata-2023.4
+
+[notice] A new release of pip is available: 23.2.1 -> 23.3.2
+[notice] To update, run: python.exe -m pip install --upgrade pip
+
+(venv) D:\django_project>django --version
+'django' is not recognized as an internal or external command,
+operable program or batch file.
+
+(venv) D:\django_project>
+(venv) D:\django_project>django --version
+'django' is not recognized as an internal or external command,
+operable program or batch file.
+
+(venv) D:\django_project>django-admin startproject test .
+CommandError: 'test' conflicts with the name of an existing Python module and cannot be used as a project name. Please try another name.
+
+(venv) D:\django_project>django-admin startproject test1 .
+
+(venv) D:\django_project>
